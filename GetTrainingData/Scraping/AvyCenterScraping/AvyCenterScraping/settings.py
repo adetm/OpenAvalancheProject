@@ -73,7 +73,8 @@ ITEM_PIPELINES = {
 }
 
 #IMAGES_STORE = '/Users/scottcha/Documents/ProblemAvyRoseImages'
-IMAGES_STORE = 'D:/Temp/ProblemAvyRoseImages'
+#IMAGES_STORE = 'D:/Temp/ProblemAvyRoseImages'
+IMAGES_STORE = '/home/scottcha/Temp/ProblemAvyRoseImages'
 
 IMAGES_THUMBS = {
     'small': (200, 160),

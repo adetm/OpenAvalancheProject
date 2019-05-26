@@ -111,8 +111,9 @@ class AvycenterscrapingPipeline(ImagesPipeline):
             northWestAboveX, northWestAboveY = 82, 58
 
         #TODO: need to replace this with a global constant
+        im = Image.open('/home/scottcha/Temp/ProblemAvyRoseImages/thumbs/' + rose_file_image.replace('full', 'small'))
         #im = Image.open('/Users/scottcha/Documents/ProblemAvyRoseImages' + '/thumbs/' + rose_file_image.replace('full', 'small'))
-        im = Image.open('D:/Temp/ProblemAvyRoseImages' + '/thumbs/' + rose_file_image.replace('full', 'small'))
+        #im = Image.open('D:/Temp/ProblemAvyRoseImages' + '/thumbs/' + rose_file_image.replace('full', 'small'))
 
         rgb_im = im.convert('RGB')
 
